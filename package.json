@@ -4,7 +4,7 @@
   "description": "API for Tracking Products",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --watch --passWithNoTests"
   },
   "keywords": [],
   "author": "Maria Lobillo Santos",
