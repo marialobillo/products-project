@@ -1,0 +1,17 @@
+{
+  "name": "product-api",
+  "version": "2.0.0",
+  "description": "API for Tracking Products",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Maria Lobillo Santos",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.11.17",
+    "git-commit-msg-linter": "^4.4.0",
+    "typescript": "^4.9.4"
+  }
+}
