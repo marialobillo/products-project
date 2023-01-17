@@ -4,8 +4,12 @@
   "description": "API for Tracking Products",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watch --passWithNoTests",
-    "test:staged": "jest --watch --passWithNoTests"
+    "test": "jest --passWithNoTests --silent --noStackTrace --runInBand",
+		"test:verbose": "jest --passWithNoTests --runInBand",
+		"test:unit": "jest -- -c jest-unit-config.js",
+    "test:integration": "npm test -- -c jest-integration-config.js",
+    "test:staged": "npm test -- --findRelatedTests",
+    "test:ci": "npm test -- --coverage"
   },
   "keywords": [],
   "author": "Maria Lobillo Santos",
