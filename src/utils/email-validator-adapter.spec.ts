@@ -7,6 +7,9 @@ jest.mock('validator', () => ({
   }
 }))
 
+const makeSut = (): EmailValidatorAdapter => {
+  return new EmailValidatorAdapter()
+}
 
 describe('EmailVlidator Adapter', () => {
 
